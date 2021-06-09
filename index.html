@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars - "Звёздные войны" - Сайт фильма</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <a data-aos="fade-down" data-aos-delay="1000" href="#">
+        <img src="img/logo.svg" alt="Logo: Star Wars" class="logo header__logo">
+        </a>
+        <nav data-aos="fade-down" data-aos-delay="600" class="nav wow fadeInRight">
+          <a href="#" class="nav__link">Билеты</a>
+          <a href="#" class="nav__link">О фильме</a>
+          <a href="#" class="nav__link">Трейлеры</a>
+          <a href="#" class="nav__link">Отзывы</a>
+        </nav>
+      </header>
+       <main>
+         <div class="hero"  data-aos="fade-right" data-aos-delay="1000" >
+          <div class="hero__subtitle">Эпизод IX</div>
+          <p class="hero__description">Фильм завершае
+          <h1 class="hero__title">Скайуокер. Восход</h1>т невероятную историю семьи Скайуокеров, длящуюся уже более сорока лет, и обещает дать ответы на все загадки из предыдущих серий. Зрителя ожидают старые и новые герои, уникальные миры увлекательные путешествия на край Галактики и грандиозный финал фантастической саги</p>
+          <span class="hero__premier">Премьера</span>
+          <span class="hero__date">19 декабря 2019</span>
+          <a data-fancybox href="https://www.youtube.com/watch?v=rfbjvcj_IjM" class="button-play hero__button-play">
+            Смотреть трейлер
+          <img src="img/play-button.svg" alt="play-button" class="button-play__img">
+          </a>
+         </div>
+         <!-- /.hero -->
+         <section class="section old">
+           <h3 class="old__title">Предыдущие эпизоды</h3>
+          <div class="swiper-container old__slider-container">
+            <div class="swiper-wrapper old__slider-wrapper">
+              <div class="swiper-slide old__slide old__slide--active slide"  data-aos="fade-up" data-aos-delay="300">
+                <span class="slide__date">1977</span>
+                <h3 class="slide__title">Эпизод IV: <br> Новая надежда</h3>
+                <span class="slide__rating">Рейтинг</span>
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-regular.svg" alt="Rating Stars" class="slide__rating-img">
+              </div>
+              <div class="swiper-slide old__slide slide_2"  data-aos="fade-up" data-aos-delay="500">
+                <span class="slide__date">1980</span>
+                <h3 class="slide__title">Эпизод V: <br> Империя наносит ответный удар</h3>
+                <span class="slide__rating">Рейтинг</span>
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-regular.svg" alt="Rating Stars" class="slide__rating-img">
+              </div>
+              <div class="swiper-slide old__slide slide_3"  data-aos="fade-up" data-aos-delay="700">
+                <span class="slide__date">1983</span>
+                <h3 class="slide__title">Эпизод VI: <br> Возвращение джедая</h3>
+                <span class="slide__rating">Рейтинг</span>
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-regular.svg" alt="Rating Stars" class="slide__rating-img">
+              </div>
+              <div class="swiper-slide old__slide slide_4"  data-aos="fade-up" data-aos-delay="900">
+                <span class="slide__date">1999</span>
+                <h3 class="slide__title">Эпизод I: <br> Скрытая угроза</h3>
+                <span class="slide__rating">Рейтинг</span>
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-whitebg.svg" alt="Rating Stars" class="slide__rating-img">
+                <img src="img/star-regular.svg" alt="Rating Stars" class="slide__rating-img">
+              </div>
+            </div>
+            <!-- /.swiper-wrapper -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+          <!-- /.swiper-container -->
+         </section>
+       </main>
+    </div>
+    <!-- /.container -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
