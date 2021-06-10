@@ -4,9 +4,10 @@
 body {
   background: #070506 url(../img/main-bg.png);
   background-repeat: no-repeat;
-  background-position: center left 200px;
+  background-position: center top;
   color: #fff;
   font-family: "Roboto", sans-serif;
+  min-height: 100vh;
 }
 .container {
   width: 90%;
